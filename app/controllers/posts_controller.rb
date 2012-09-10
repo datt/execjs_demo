@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  #before_filter :validate_contents,:only=>[:update,:create]
   # GET /posts
   # GET /posts.json
   def index
@@ -80,4 +81,6 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+
 end
