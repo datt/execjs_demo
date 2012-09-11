@@ -14,3 +14,17 @@
 //= require jquery_ujs
 //= validations
 //= require_tree .
+
+
+$("#content_text").live("keyup",function() {
+  //get textarea text and maxlength attribute value
+  var t = $(this);
+  var text = t.val();
+  //var limit = t.attr('maxlength');
+  //if textarea text is greater than maxlength limit, truncate and re-set text
+  if (text.length > 100) {
+    text = text.substring(0, 100);
+    alert("validations working");
+    t.val(text);
+  }
+});

@@ -7906,3 +7906,191 @@ Served asset /validations.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-11 20:16:55 +0530
 Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/posts/8" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 8 LIMIT 1[0m
+  Rendered posts/show.html.erb within layouts/application (0.7ms)
+Compiled application.js  (2ms)  (pid 12994)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/validations.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /validations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:14 +0530
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/posts/8/edit" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 8 LIMIT 1
+  Rendered posts/_form.html.erb (1.5ms)
+  Rendered posts/edit.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/validations.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /validations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-11 20:22:16 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/posts/8/edit" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 8 LIMIT 1[0m
+  Rendered posts/_form.html.erb (2.7ms)
+  Rendered posts/edit.html.erb within layouts/application (4.0ms)
+Compiled application.js  (2ms)  (pid 12994)
+Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/validations.js?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /validations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-11 20:30:30 +0530
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/posts/8/edit" for 127.0.0.1 at 2012-09-11 20:31:17 +0530
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 8 LIMIT 1
+  Rendered posts/_form.html.erb (2.4ms)
+  Rendered posts/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-11 20:31:17 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-11 20:31:17 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-11 20:31:17 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-11 20:31:17 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/8" for 127.0.0.1 at 2012-09-11 20:31:25 +0530
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z1qV1+3lADXVBw6z9gSgaKdtFDitlLbTUuElv7ub/FY=", "post"=>{"content"=>"Cojfdddddddddddddddddddddddddddddddddddddddddddddddddddddddddnv                       vncxmv bvdb,vdbm.,v b"}, "commit"=>"Update Post", "id"=>"8"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 8 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 3145ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-11 20:31:29 +0530
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-11 20:31:29 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-11 20:31:29 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-11 20:31:29 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
