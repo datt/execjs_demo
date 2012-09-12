@@ -9287,3 +9287,4 @@ Served asset /validations.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
 Served asset /application.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
