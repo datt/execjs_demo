@@ -9019,3 +9019,271 @@ Served asset /validations.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-12 10:54:33 +0530
 Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/posts/54/edit" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"54"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/edit.html.erb within layouts/application (2.7ms)
+Compiled coffee-script.js  (0ms)  (pid 2853)
+Compiled application.js  (44ms)  (pid 2853)
+Completed 200 OK in 78ms (Views: 72.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/coffee-script.js?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /coffee-script.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/validations.js?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /validations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-12 10:58:53 +0530
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/posts/54/edit" for 127.0.0.1 at 2012-09-12 11:02:27 +0530
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"54"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1[0m
+  Rendered posts/_form.html.erb (2.3ms)
+  Rendered posts/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:27 +0530
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:27 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:27 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:27 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/posts/54/edit" for 127.0.0.1 at 2012-09-12 11:02:29 +0530
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"54"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1
+  Rendered posts/_form.html.erb (2.3ms)
+  Rendered posts/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:29 +0530
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:29 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:29 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:29 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/54" for 127.0.0.1 at 2012-09-12 11:02:35 +0530
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u+LSty67ETRhwDrqqscC/k3TZpyyAK0fCso32Fr/aLg=", "post"=>{"content"=>"fgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgffff"}, "commit"=>"Update Post", "id"=>"54"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+***************************************************************************befor condition 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%inside condition 2
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered posts/_form.html.erb (2.3ms)
+  Rendered posts/edit.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 28ms (Views: 9.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:35 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:35 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:35 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-12 11:02:35 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/54" for 127.0.0.1 at 2012-09-12 11:03:04 +0530
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u+LSty67ETRhwDrqqscC/k3TZpyyAK0fCso32Fr/aLg=", "post"=>{"content"=>"fgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgffff"}, "commit"=>"Update Post", "id"=>"54"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered posts/_form.html.erb (2.6ms)
+  Rendered posts/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 37ms (Views: 9.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:04 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:04 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:04 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:04 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/54" for 127.0.0.1 at 2012-09-12 11:03:07 +0530
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u+LSty67ETRhwDrqqscC/k3TZpyyAK0fCso32Fr/aLg=", "post"=>{"content"=>"fgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgfffffgffffffffffffffffffffffffffffffffffgffff"}, "commit"=>"Update Post", "id"=>"54"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered posts/_form.html.erb (2.5ms)
+  Rendered posts/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:07 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:07 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:07 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:07 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/54" for 127.0.0.1 at 2012-09-12 11:03:11 +0530
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u+LSty67ETRhwDrqqscC/k3TZpyyAK0fCso32Fr/aLg=", "post"=>{"content"=>"fgffffffffffffffffffffffffffffffffffgff"}, "commit"=>"Update Post", "id"=>"54"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `posts` SET `content` = 'fgffffffffffffffffffffffffffffffffffgff', `updated_at` = '2012-09-12 05:33:11' WHERE `posts`.`id` = 54
+  [1m[36m (39.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/54
+Completed 302 Found in 47ms (ActiveRecord: 40.4ms)
+
+
+Started GET "/posts/54" for 127.0.0.1 at 2012-09-12 11:03:11 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"54"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1
+  Rendered posts/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:11 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:16 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:16 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:16 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/posts/54/edit" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"54"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 54 LIMIT 1[0m
+  Rendered posts/_form.html.erb (1.5ms)
+  Rendered posts/edit.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/coffee-script.js?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /coffee-script.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/validations.js?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /validations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-12 11:03:32 +0530
+Served asset /application.js - 304 Not Modified (3ms)

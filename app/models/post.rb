@@ -1,7 +1,7 @@
 require "open-uri"
 class Post < ActiveRecord::Base
   attr_accessible :content
-  validate :coffee_demo
+  validate :validate_contents
 
   def validate_contents
     source = File.read(Rails.root.join("app/assets/javascripts/validations.js"))
@@ -29,7 +29,7 @@ class Post < ActiveRecord::Base
      ##context = ExecJS.eval(js)
      ##context.call("validate_content_length",content)
 
-      source = open("http://jashkenas.github.com/coffee-script/extras/coffee-script.js").read
+      source = File.read(Rails.root.join("app/assets/javascripts/coffee-script.js"))
 
       context = ExecJS.compile(source)
       c = context.call("CoffeeScript.compile",coffe , :bare => true)
