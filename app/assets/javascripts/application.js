@@ -16,9 +16,9 @@
 //= require_tree .
 
 
-$("#content_text").live("keyup",function() {
+$("#submit_post").live("click",function() {
   //get textarea text and maxlength attribute value
-  var t = $(this);
+  /*var t = $(this);
   var text = t.val();
   //var limit = t.attr('maxlength');
   //if textarea text is greater than maxlength limit, truncate and re-set text
@@ -26,5 +26,10 @@ $("#content_text").live("keyup",function() {
     text = text.substring(0, 100);
     alert("validations working");
     t.val(text);
+  } */
+  if( !validate_content_length($("#content_text").val()))
+  {
+       alert("Javascript is enabled, Javascript validation is working");
+    return false;
   }
 });
