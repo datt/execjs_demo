@@ -1,0 +1,35 @@
+1>>>
+context = ExecJS.compile "var repeat = function(foo) { return foo + foo }"
+
+context.call 'repeat', '1'
+==> "11"
+
+2>>> 
+ExecJS.eval "num = Math.sqrt(36), num*num*2, 'hello '+num"
+
+=> "hello 6"
+
+
+3>>>
+
+ExecJS.eval "'red yellow blue'.split(' ')"
+
+4>>>>>
+
+source = open("http://jashkenas.github.com/coffee-script/extras/coffee-script.js").read
+
+context = ExecJS.compile(source)
+context.call("CoffeeScript.compile", "square = (x) -> x * x", :bare => true)
+
+
+ignore this one>>>>>>>>>>>>>>>>>>>>>>>
+
+##js = CoffeeScript.compile(coffe)
+     #context.call("CoffeeScript.compile", coffe, :bare => true)
+     ##context = ExecJS.eval(js)
+     ## source = open("http://jashkenas.github.com/coffee-script/extras/coffee-script.js").read
+     ##context = ExecJS.compile(source)
+     ##context.call("CoffeeScript.compile", "square = (x) -> x * x", :bare => true)
+     #
+     ##context = ExecJS.eval(js)
+     ##context.call("validate_content_length",content)
